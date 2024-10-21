@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.spaceline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top right, #0a0a24, #2c3e50);
+    color: white;
+    height: auto;
+    text-align: center;
+}
+
+.spaceline-header {
+    margin-top: 0%;
+}
+
+.bg {
+    width: 100%;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: Euclid Galactic, sans-serif;
+}
+
+.company {
+    font-size: 24px;
+    position: absolute;
+    top: 10%;
+    right: 90%;
+}
+
+.first {
+    font-size: 44px;
+    position: absolute;
+    top: 25%;
+    right: 70%;
+}
+
+.space-image {
+    margin-top: 0px;
+    position: relative;
+}
+
+.craft {
+    width: 600px;
+    transform: rotate(-10deg);
+    transition: transform 0.5s;
+}
+
+.craft:hover {
+    transform: rotate(0deg);
+}
+
+.signup-btn {
+    /* background-color: linear-gradient(90deg, #9441e1, #8a2be2); */
+    background: linear-gradient(to top right, #8a2be2, #b37ee4);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 30px;
+    position: absolute;
+    top: 5%;
+    left: 85%;
+}
+
+.watch-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.watch-btn {
+    background-color: #d12dd4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container2 {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    padding: 0px;
+    top: 85%;
+    right: 69%;
+    position: absolute;
+    width: 400px;
+    height: 150px;
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+}
+
+.left-section img {
+    /* max-width: 100%; */
+    height: auto;
+    width: 150px;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-left: 0px;
+    width: 70%;
+}
+
+.watch-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #8b00ff;
+    text-align: left;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
