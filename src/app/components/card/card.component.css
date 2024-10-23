@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 400px;
+    background-color: #1a0033;
+    color: white;
+    /* background: linear-gradient(90deg, #30015c, #1a0033); */
+}
+
+.section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.content {
+    max-width: 300px;
+}
+
+.label {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+}
+
+
+/* Hover backgrounds */
+
+.spacecraft-section1:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(130, 115, 115, 0.5)), url('https://tinggly.com/journal/wp-content/uploads/2015/02/shutterstock_130076768-1209x806.jpg') center/cover;
+    box-shadow: 100px 100px 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.spaceport-section2:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(52, 51, 51, 0.5)), url('https://bigthink.com/wp-content/uploads/2023/02/AdobeStock_558949687.jpg') center/cover;
+    box-shadow: 100px 100px 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.spaceflight-section3:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(70, 66, 66, 0.5)), url('https://th.bing.com/th/id/OIP.Zwwci75VKShwc8I6jgSa9gHaEK?rs=1&pid=ImgDetMain') center/cover;
+    box-shadow: 100px 100px 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+
+/* Optional: Add subtle transitions for smoother hover effects */
+
+.section {
+    transition: all 0.5s ease-in-out;
+}
+
+.section:hover {
+    /* transform: scale(1.02); */
+    transform: scaleY(1.02);
+}
+
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .section {
+        padding: 30px 20px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+}
